@@ -2,7 +2,8 @@
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around;
-    /* position:relative;  */
+    color: rgb(92, 207, 235)
+
 }
 
 aside {
@@ -12,7 +13,7 @@ aside {
     float: right;
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
-    color: #000001;
+    color: rgb(92, 207, 235)
     position:relative
 }
 
@@ -37,4 +38,17 @@ aside {
 
   .subContainerFishCards {
     position:relative; 
+  }
+
+  .card {
+    border: 10px solid black; 
+    padding: 50px;
+    margin: 20px;   
+  }
+  
+
+  .quotes, .places {
+    border: 10px solid black; 
+    padding: 50px;
+    margin: 20px; 
   }
