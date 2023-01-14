@@ -2,7 +2,8 @@
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around;
-    color: rgb(92, 207, 235)
+    color: rgb(154, 204, 231)
+    /* color: rgb(92, 207, 235) */
 
 }
 
@@ -13,7 +14,7 @@ aside {
     float: right;
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
-    color: rgb(92, 207, 235)
+    color: rgb(154, 204, 231)
     position:relative
 }
 
@@ -25,6 +26,7 @@ aside {
 .mainHeader {
     text-align: center;
     position:relative; 
+    color: rgb(8, 29, 76)
 }
 
 .background {
@@ -40,15 +42,19 @@ aside {
     position:relative; 
   }
 
-  .card {
-    border: 10px solid black; 
+  .card, .quotes, .places{
+    border: 10px solid rgb(8, 29, 76); 
     padding: 50px;
     margin: 20px;   
   }
   
+  .fishTankHeader{
+   
+  }
 
-  .quotes, .places {
+  /* .quotes, .places {
     border: 10px solid black; 
     padding: 50px;
     margin: 20px; 
-  }
+  } */
+
