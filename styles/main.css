@@ -21,7 +21,7 @@ aside {
 
 .subContainerTravel {
     float: right; 
-    position:relative
+    position:relative;
    
 }
 
@@ -54,6 +54,10 @@ aside {
 
   h3.fishTankHeader{ 
     text-align: center;
-    color: black
+
+  }
+
+  .travelHeader{
+    text-align: center; 
   }
 
