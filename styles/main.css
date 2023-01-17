@@ -2,25 +2,27 @@
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around;
-    color: rgb(154, 204, 231)
+    /* color: rgb(154, 204, 231) */
+    
     /* color: rgb(92, 207, 235) */
 
 }
 
 aside {
-    width: 50%;
+    width: 20%;
     padding-left: 0.5rem;
     margin-left: 0.5rem;
     float: right;
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
-    color: rgb(154, 204, 231)
-    position:relative
+    color: rgb(154, 204, 231);
+    position: relative; 
 }
 
 .subContainerTravel {
     float: right; 
     position:relative
+   
 }
 
 .mainHeader {
@@ -40,21 +42,18 @@ aside {
 
   .subContainerFishCards {
     position:relative; 
+    
   }
 
   .card, .quotes, .places{
     border: 10px solid rgb(8, 29, 76); 
-    padding: 50px;
-    margin: 20px;   
-  }
-  
-  .fishTankHeader{
-   
+    padding: 30px;
+    margin: 20px; 
+    color: rgb(154, 204, 231)  
   }
 
-  /* .quotes, .places {
-    border: 10px solid black; 
-    padding: 50px;
-    margin: 20px; 
-  } */
+  h3.fishTankHeader{ 
+    text-align: center;
+    color: black
+  }
 
