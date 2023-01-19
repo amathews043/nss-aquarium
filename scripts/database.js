@@ -1,10 +1,10 @@
-const database = {
+export const database = {
     fish: [ {
         name: "Name: Marvin", 
         food: "Favorite Food: Peanut Butter Sandwich", 
-        size: "Size: Small",
+        size: 3,
         species: "Species: Cartoon",
-        location: "The imagination of children of all ages",
+        location: "Location: The imagination of children of all ages",
         tankCare: "Tank care instructions for this fish",
         image: `alt="the first fish in Martin's tank is a blue, cartoon fish" src="../images/fish one .png"`,
     },
@@ -12,9 +12,9 @@ const database = {
     {
         name: "Name: Herbert", 
         food: "Favorite Food: Jelly Toast", 
-        size: "Size: Small but with a big heart", 
+        size: 5,
         species: "Species: Cartoon",
-        location: "The imagination of children of all ages",
+        location: "Location: The imagination of children of all ages",
         tankCare: "Tank care instructions for this fish", 
         image: `alt="the second fish in Martin's tank is an orange, cartoon fish" src="../images/fish two .png"`
     },
@@ -22,7 +22,8 @@ const database = {
     {
         name: "Name: Zippy", 
         food: "Favorite Food: Milkshakes", 
-        size: "Size: Medium", 
+        size: 10, 
+        location: "Location: The imagination of children of all ages",
         species: "Species: Cartoon",
         tankCare: "Tank care instructions for this fish",
         image: `alt="the third fish in Martin's tank is a sad, blue, cartoon fish with a hook in its lip" src="../images/fish three.png"`, 
@@ -31,9 +32,9 @@ const database = {
     {
         name: "Name: Deborah",
         food: "Favorite Food: Pancakes",
-        size: "Size: Big Heart, Big Smile, Tiny Fish",
+        size: 12,
         species: "Species: Cartoon",
-        location: "The imagination of children of all ages", 
+        location: "Location: The imagination of children of all ages", 
         tankCare: "Tank care instructions for this fish",
         image: `alt="the fourth fish in Martin's tank is an smiling, cartoon fish with bubbles around it" src="../images/fish four.jpeg"`
     },
@@ -41,9 +42,9 @@ const database = {
     {
         name: "Name: My Dinner",
         food: "Favorite Food: Mine",
-        size: "Size: GIANT", 
+        size: 12001,
         species: "Species: The species doesn't matter so much as long as it was swimming this morning", 
-        location: "My Stomach",
+        location: "Location: My Stomach",
         tankCare: "Tank care instructions for this fish",
         image: `alt="fried fish on a black plate with lemon" src="../images/fish five .jpeg"`,
 
